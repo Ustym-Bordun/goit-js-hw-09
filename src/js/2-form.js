@@ -77,6 +77,9 @@ const onFormSubmitFn = event => {
     formEl.reset();
 
     localStorage.removeItem('feedback-form-state');
+
+    formData.email = '';
+    formData.message = '';
   }
 };
 
